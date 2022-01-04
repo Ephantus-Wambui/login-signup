@@ -1,6 +1,6 @@
 body {
-    background-color: #000000;
-    color: #808080;
+    background-color: #333333;
+    color: #00FF6C;
 }
 
 main {
@@ -15,10 +15,19 @@ main {
     margin-right: 30px;
 }
 
+a {
+    text-decoration: none;
+    color: #00FF6C;
+}
+
 form {
     display: flex;
     flex-direction: column;
     width: 30vw;
+}
+
+label {
+    font-size: 50px;
 }
 
 input, label, button {
@@ -29,9 +38,15 @@ input {
     outline: none;
     padding: 5px;
     margin: 5px;
+    border: 2px solid #00FF6C;
+    border-radius: 5px;
+    font-size: 20px;
 }
 
 button {
     width: 100px;
     padding: 5px;
+    background-color: rgb(90, 146, 219);
+    border: 2px solid rgb(90, 146, 219);
+    border-radius: 5px;
 }
