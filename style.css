@@ -11,6 +11,10 @@ main {
     margin: 0 auto;
 }
 
+#login, #signup {
+    display: block;
+}
+
 .login {
     margin-right: 30px;
 }
